@@ -6,7 +6,7 @@ import (
 )
 
 type XMLTable struct {
-	Name string `xml:"name,attr" json:"name"`
+	Name string `xml:"name,attr"`
 	Tag  XMLTag `xml:"tag"`
 }
 
